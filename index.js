@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import { buildComponent } from './scripts/build-component';
+let buildComponent = require('./scripts/build-component.js').buildComponent;
 
 buildComponent();
