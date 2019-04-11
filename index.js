@@ -1,3 +1,5 @@
 #!/usr/bin/env node
 
-console.log('Hello world');
+import { buildComponent } from './scripts/build-component';
+
+buildComponent();
